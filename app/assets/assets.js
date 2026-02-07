@@ -35,7 +35,7 @@ import right_arrow from './right-arrow.png';
 import send_icon from './send-icon.png';
 import right_arrow_bold from './right-arrow-bold.png';
 import right_arrow_bold_dark from './right-arrow-bold-dark.png';
-import tailwind from'./tailwind.png';
+import tailwind from './tailwind.png';
 
 export const assets = {
     user_image,
@@ -80,30 +80,33 @@ export const assets = {
 
 export const workData = [
     {
-        title: 'Frontend project',
+        title: 'Amazon Clone',
         description: 'Web Design',
         bgImage: '/work-1.png',
+        link: 'https://github.com/MuathAlkahtiri/javascript-amazon-project',
     },
     {
-        title: 'Geo based app',
-        description: 'Mobile App',
+        title: 'PlaySphere',
+        description: 'Web Design',
         bgImage: '/work-2.png',
+        link: 'https://github.com/MuathAlkahtiri/play-sphere',
     },
-    {
+    /*{
         title: 'Photography site',
         description: 'Web Design',
         bgImage: '/work-3.png',
+        link: '#',
     },
     {
         title: 'UI/UX designing',
         description: 'UI/UX Design',
         bgImage: '/work-4.png',
-    },
+        link: '#',
+    },*/
 ]
 
 export const serviceData = [
     { icon: assets.web_icon, title: 'Web design', description: 'Web development is the process of building, programming...', link: '' },
-    { icon: assets.mobile_icon, title: 'Mobile app', description: 'Mobile app development involves creating software for mobile devices...', link: '' },
     { icon: assets.ui_icon, title: 'UI/UX design', description: 'UI/UX design focuses on creating a seamless user experience...', link: '' },
     { icon: assets.graphics_icon, title: 'Graphics design', description: 'Creative design solutions to enhance visual communication...', link: '' },
 ]
