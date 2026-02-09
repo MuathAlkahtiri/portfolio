@@ -17,7 +17,7 @@ const Footer = () => {
 
       <div className='border-t border-gray-400 mt-12 py-6 dark:border-white/30 w-full'>
         <div className='text-left sm:flex items-center justify-between mx-[1%]'>
-          <p>© 2025 Muath Alkathiri. All rights reserved.</p>
+          <p>© Muath Alkathiri. All rights reserved.</p>
           <ul className='flex items-center gap-10 justify-center mt-4 sm:mt-0'>
             <li><a target='_blank' href='https://github.com/MuathAlkahtiri'>GitHub</a></li>
             <li><a target='_blank' href='https://www.linkedin.com/in/muath-alkathiri-6767ba238'>LinkedIn</a></li>
